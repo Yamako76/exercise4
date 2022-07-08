@@ -16,6 +16,6 @@ for i in range(3):
         cnt2 += 1
 print('Heads: '+ str(cnt1) + ', Tails: ' + str(cnt2))
 if int(cnt1) > int(cnt2):
-    print('You won!')
+    print(name + ' won!')
 else:
-    print('You lost!')
+    print(name + ' lost!')
