@@ -1,5 +1,8 @@
 import random
 
+print('Who are you?')
+name = input()
+print('Hello,' + name + '!')
 print('Tossing a coin...')
 cnt1 = 0
 cnt2 = 0
